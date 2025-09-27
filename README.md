@@ -1,4 +1,4 @@
-# MCP PostgreSQL Server Docker
+# Docker MCP Server PostgreSQL
 
 Dockerization of the MCP PostgreSQL server based on [antonorlov/mcp-postgres-server](https://github.com/antonorlov/mcp-postgres-server).
 
