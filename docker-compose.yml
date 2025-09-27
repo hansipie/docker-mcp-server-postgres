@@ -1,0 +1,13 @@
+services:
+  mcp-postgres-server:
+    build: .
+    container_name: mcp-postgres-server
+    restart: unless-stopped
+    networks:
+      - mcp-network
+    stdin_open: true
+    tty: true
+
+networks:
+  mcp-network:
+    driver: bridge
